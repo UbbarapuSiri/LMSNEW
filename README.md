@@ -1,4 +1,4 @@
-=# Brain Tumor Segmentation using U-Net++
+# Brain Tumor Segmentation using U-Net++
 
 This project implements brain tumor segmentation on the BRISC dataset using U-Net++ architecture with EfficientNet-B7 and ResNet-101 encoders combined with scSE attention mechanism.
 
