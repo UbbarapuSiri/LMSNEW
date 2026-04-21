@@ -22,19 +22,22 @@ This project implements brain tumor segmentation on the BRISC dataset using U-Ne
 | | Meningioma | 92.14 | 85.63 |
 | | Pituitary | 88.92 | 80.27 |
 
+
+### Segmentation Results
+
+![Segmentation Results](segment.png)
+
 ## Key Findings
 
 - **EfficientNet-B7 outperforms ResNet-101** by approximately 1 percentage point in Dice score
 - **Meningioma** is the easiest to segment (92.96% Dice) due to well-defined boundaries
 - **Glioma** is the most challenging (89.78% Dice) due to infiltrative nature
-- External Contour Cropping (ECC) improves Dice by 3.29 percentage points
-- scSE attention adds 1.65 percentage points with minimal parameter increase
 
 ## Requirements
 
 - Python 3.8+
 - PyTorch 1.12+
-- CUDA 11.3+ (for GPU training)
+- CUDA 11.3+
 
 ## Installation
 
